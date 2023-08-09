@@ -16,6 +16,11 @@ st_q:
   data:
     - { log: st_q, column: [0-33] }
 
+ast_q:
+  func: plot_rad2deg
+  data:
+    - { log: ast_q, column: [0-33] }
+
 abst_q:
   func: plot_rad2deg
   data:
