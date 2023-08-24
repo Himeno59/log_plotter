@@ -106,6 +106,7 @@ class PlotMethod(object):
     @staticmethod
     def plot_rad2deg_vel(plot_item, times, data_dict, logs, log_cols, cur_col, key, i):
         data = [math.degrees(x) for x in numpy.diff(data_dict[logs[0]][:, log_cols[0]])/numpy.diff(times)] # コンピュータ時間の差で微分するとelがガタガタになる
+        # data = [math.degrees(x) for x in numpy.diff(data_dict[logs[0]][:, log_cols[0]])/0.0020] # 0.0020の定数で割ったがあまり違いが見られ無かった
         plot_item.plot(times, numpy.append(data,[0]), pen=pyqtgraph.mkPen(PlotMethod.linetypes["color"][i], width=2, style=PlotMethod.linetypes["style"][i]), name=key)
 
     @staticmethod

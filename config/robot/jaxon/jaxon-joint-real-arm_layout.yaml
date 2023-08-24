@@ -11,7 +11,7 @@ main:
       # - { key: st_q, id: [21],label: st_elbow-p }
       # - { key: st_q, id: [22],label: st_wrist-y }
       # - { key: st_q, id: [23],label: st_wrist-r }
-      # - { key: st_q, id: [24],label: st_wrist-p }
+      # - { key: st_q, id: [24],label: st_wrist-p }x
       # - { key: abc_q, id: [17],label: abc_collar-y }
       # - { key: abc_q, id: [18],label: abc_shoulder-p }
       # - { key: abc_q, id: [19],label: abc_shoulder-r }
