@@ -21,6 +21,16 @@ ast_q:
   data:
     - { log: ast_q, column: [0-33] }
 
+ast_dq:
+  func: plot_rad2deg
+  data:
+    - { log: ast_dqRef, column: [0-33] }
+
+ast_ddq:
+  func: plot_rad2deg
+  data:
+    - { log: ast_ddqRef, column: [0-33] }
+
 abst_q:
   func: plot_rad2deg
   data:
@@ -136,6 +146,10 @@ st_tau:
 abc_tau:
   data:
     - { log: abc_tau, column: [0-33] }
+
+ast_tau:
+  data:
+    - { log: ast_tau, column: [0-33] }    
 
 abst_tau:
   data:
